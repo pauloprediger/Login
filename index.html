@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+</head>
+<body>
+    <main>
+        <section id="id_login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h2>Login</h2>
+                <p>Seja bem-vindo(a) novamente. Faça Login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="off">
+                    <fieldset>
+                        <p>
+                            <label for="id_user">Usuário: </label>
+                            <input type="text" name="user" id="id_user" required minlength="5">
+                            <br>
+                            <label for="id_password">Senha: </label>
+                            <input type="password" name="password" id="id_password" minlength="8" required>
+                        </p>
+                    </fieldset>
+                    <p id="botoes">
+                        <input id="enviar" class="buttom" type="submit" value="Enviar">
+                        <br>
+                        <input id="reset" class="buttom" type="reset" value="Esqueci a senha">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
