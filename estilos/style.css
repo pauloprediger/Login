@@ -37,14 +37,17 @@ section#id_login{
     background-color: white;
     overflow: hidden;
 
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
+
 }
 div#imagem{
     display: block;
     background: var(--cor1) url('../imagens/login.jpg') no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 168px;
 }
-#formulario{
+div#formulario{
     display: block;
     text-align: center;
 }
